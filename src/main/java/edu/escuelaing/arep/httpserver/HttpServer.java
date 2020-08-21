@@ -2,8 +2,38 @@ package edu.escuelaing.arep.httpserver;
 
 import java.net.*;
 import java.io.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class HttpServer {
+    private int port = 36000;
+    private boolean running = false;
+
+    public HttpServer(){
+    }
+    public HttpServer(int port){
+        this.port = port;
+    }
+
+    public void start(){
+
+    }
+
+    private void processRequest(Socket clientSocket) throws IOException {
+
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(clientSocket.getInputStream()));
+        String inputLine;
+        Map<String, List<String>> request = new HashMap<>();
+        while ((inputLine=in.readLine())!=null){
+            System.out.println("");
+
+        }
+
+    }
+
+
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
         try {
