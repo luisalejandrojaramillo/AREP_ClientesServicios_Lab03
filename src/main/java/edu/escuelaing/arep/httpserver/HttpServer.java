@@ -213,8 +213,7 @@ public class HttpServer {
 	}
 
 	public void get(String endPoint,Function<Request,String>  res) {
-		System.out.println("ruta "+endPoint);
-		System.out.println("val "+res);
+		System.out.println("Ruta "+endPoint);
 		rutas.put(endPoint , res);
 	}
 

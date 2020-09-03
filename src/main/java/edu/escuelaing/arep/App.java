@@ -30,7 +30,7 @@ public class App {
                 +"<!DOCTYPE html>"
                 + "<html>"
                 + "<body>"
-                + "<h1>Hello world, AUPN Lab</h1>"
+                + "<h1>Hello world, AREP Lab</h1>"
                 + "</body>"
                 + "</html>";
     }

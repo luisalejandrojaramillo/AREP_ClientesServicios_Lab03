@@ -18,6 +18,10 @@ public class Request {
         parseRequestLine(requestLine);
     }
 
+    /**
+     *
+     * @param requestLine
+     */
     public void parseRequestLine(String requestLine){
         try {
             String[] components= requestLine.split("\\s");
@@ -73,10 +77,19 @@ public class Request {
         this.theuri = theuri;
     }
 
+    /**
+     *
+     * @param newRequestUri
+     */
     public void setRequestUri(String newRequestUri) {
         this.requestURI = newRequestUri;
     }
 
+    /**
+     *
+     * @param query
+     * @return Map
+     */
     private Map<String, String> parseQuery(String query) {
         if( query == null) return null;
         Map<String, String> theQuery = new HashMap();
@@ -90,6 +103,11 @@ public class Request {
         return theQuery;
     }
 
+    /**
+     * 
+     * @param varname
+     * @return
+     */
     public String getValFromQuery(String varname){
         return query.get(varname);
     }
