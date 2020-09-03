@@ -18,6 +18,10 @@ cd AREP_ClientesServicios_Lab03
 ```
 mvn package
 ```
+5. Ejecutamos
+```
+java -cp target/AREP_ClientesServicios_Lab03-1.0-SNAPSHOT.jar edu.escuelaing.arep.App
+```
 
 ## Reto 1
 Escriba un servidor web que soporte múlltiples solicitudes seguidas (no concurrentes). El servidor debe retornar todos los archivos solicitados, incluyendo páginas html e imágenes. Construya un sitio web con javascript para probar su servidor. Despliegue su solución en Heroku. NO use frameworks web como Spark o Spring use solo Java y las librerías para manejo de la red.
