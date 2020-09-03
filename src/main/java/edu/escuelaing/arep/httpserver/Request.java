@@ -53,10 +53,6 @@ public class Request {
         return HTTPVersion;
     }
 
-    /**
-     *
-     * @return
-     */
     public String toString(){
         return method + " " + requestURI + " " + HTTPVersion + "\n\r" +
                 getTheuri() + "\n\r" +
@@ -70,13 +66,15 @@ public class Request {
         return theuri;
     }
 
-
     /**
-     *
-     * @param theuri and set them
+     * @param theuri the theuri to set
      */
     public void setTheuri(URI theuri) {
         this.theuri = theuri;
+    }
+
+    public void setRequestUri(String newRequestUri) {
+        this.requestURI = newRequestUri;
     }
 
     private Map<String, String> parseQuery(String query) {
