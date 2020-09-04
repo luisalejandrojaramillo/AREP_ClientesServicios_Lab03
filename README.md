@@ -40,6 +40,9 @@ Escriba un servidor web que soporte múlltiples solicitudes seguidas (no concurr
 ## Reto 2 (Avanzado)
 Usando su  servidor y java (NO use frameworks web como Spark o Spring). Escriba un framework similar a Spark que le permita publicar servicios web "get" con funciones lambda y le permita acceder a recursoso estáticos como páginas, javascripts, imágenes, y CSSs. Cree una aplicación que conecte con una base de datos desde el servidor para probar su solución. Despliegue su solución en Heroku.
 
+## Informe
+[Informe](/InformeLab03AREP.pdf)
+
 ## License
 [MIT License ](/LICENSE)
 ## Autor
