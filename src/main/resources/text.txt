@@ -1,1 +1,2 @@
-Hola a todos, este es el Lab03 de AREP, realizado con esfuerzo y lagrimas xd
+Hola a todos, este es el Lab03 de AREP
+Vamos a mostrar un archivo TXT
