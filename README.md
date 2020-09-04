@@ -31,8 +31,14 @@ java -cp target/AREP_ClientesServicios_Lab03-1.0-SNAPSHOT.jar edu.escuelaing.are
 ## Arquitectura
 ![Arquitectura](/img/modelAREP.PNG)
 
-##Prueba DB
+## Prueba DB
 ![Database](/img/database.PNG)
+
+## Otros Ejemplos
+* https://clientserverarep.herokuapp.com/arbol.jpg
+* https://clientserverarep.herokuapp.com/libro.png
+* https://clientserverarep.herokuapp.com/html.html (Contiene el JS)
+* https://clientserverarep.herokuapp.com/text.txt
 
 ## Reto 1
 Escriba un servidor web que soporte múlltiples solicitudes seguidas (no concurrentes). El servidor debe retornar todos los archivos solicitados, incluyendo páginas html e imágenes. Construya un sitio web con javascript para probar su servidor. Despliegue su solución en Heroku. NO use frameworks web como Spark o Spring use solo Java y las librerías para manejo de la red.
